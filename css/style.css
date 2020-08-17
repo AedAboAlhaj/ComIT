@@ -1,0 +1,382 @@
+/*/*-topSc**/
+
+
+
+/*nav bar section*/
+.navbar {
+    padding-top: 0.5rem;
+    padding-right: 10rem;
+    padding-bottom: 0.5rem;
+    padding-left: 10rem;
+    font-size: large;
+}
+@media (max-width: 1492px)
+{
+   
+    .homeText {
+        align-content: center;
+        position: absolute;
+        top:30%;
+        left: 30%;
+        text-align: center;
+        color: white;
+        line-height: 1.6;
+    }
+    #PRISING{
+        padding-bottom: 60px;
+        align-content: center;
+    }
+}
+
+@media (max-width: 700px)
+{.navbar{
+    background-color: #F3F3F3;
+    padding-top: 0.5rem;
+    padding-right: 10%;
+    padding-bottom: 0.5rem;
+    padding-left: 10%;
+}
+.homeText {
+    align-content: center;
+    position: absolute;
+    top: 5rem;
+    left: 0rem;
+    text-align: center;
+    color: white;
+    line-height: 1.6;
+}
+
+.cardpris{
+    margin: 0 40px 40px 40px;
+}
+#PRISING .row{
+    padding-bottom: 60px;
+    align-content: center;
+
+}
+
+.form-inline{
+    visibility: hidden;
+}
+
+}
+
+
+
+.nav-link {
+    padding: 15px 22px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.navbar-nav {
+    margin-left: 5rem;
+}
+
+.navbar-text {
+    position: absolute;
+    right: 8rem;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+/*home section 584px*/
+.topSc{
+    position: relative;
+}
+#HOME {
+    max-height: 50%;
+}
+
+.homeimg {
+    opacity: 0.7;
+}
+
+
+
+.homeText h3 {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+hr {
+    border: 1px solid white;
+    width: 70%;
+}
+
+.form-inline {
+    display: block;
+    position: relative;
+    padding: 10px 20px 0px 20px;
+}
+
+.form-inline .form-control {
+    border-color: #f0f0f0;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50px;
+    box-shadow: none;
+    height: 50px;
+    margin-right: 0.5em;
+    padding-left: 15px;
+}
+
+.form-inline input[type="email"] {
+    width: 60%;
+}
+
+.form-inline button {
+    background-color: #424242;
+    border: 0;
+    color: #ffffff;
+    position: absolute;
+    right: 10%;
+    width: 25%;
+}
+.form-inline button:hover{
+background-color: #2997ca;
+}
+
+/*feature section */
+
+
+
+.contaner {
+    padding: 3% 15% 9% 15%;
+}
+
+.featurse-contant {
+    line-height: 1.3;
+    margin-top: 25px;
+    font-weight: 300;
+}
+
+.featurse-contant h1 {
+    margin-top: 60px;
+}
+
+.featurse-contant-textbox {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.featurse-contant p {
+
+    line-height: 1.3;
+    color: #757575;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.featurse-lapimg {
+    display: block;
+    height: auto;
+}
+
+.featurse-lapimg img {
+    max-width: 100%;
+}
+
+/*adoutUS section*/
+#ABOUTUS {
+    background-color: #f8f8f8;
+}
+
+.teamImg img {
+    max-width: 100%;
+}
+
+.adoutUS {
+    text-align: center;
+}
+
+.cardaa {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: left;
+    font-family: arial;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*what peaple say sction*/
+#OURCOSTOMERS {
+    background-color: #cacaca;
+    color: #000;
+    text-align: center;
+    padding: 100px;
+}
+
+#OURCOSTOMERS img {
+    max-width: 10%;
+    min-width: 120px;
+    border-radius: 100%;
+    margin-top: 20px;
+    border: 3px solid black;
+
+}
+
+.carouselPeple {
+    margin-bottom: 115px;
+
+}
+
+#OURCOSTOMERS p {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#OURCOSTOMERS h3 {
+    margin-bottom: 20px;
+}
+
+.carouselana {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*PRAISENG sction*/
+#PRAESING h1 {
+    text-align: center;
+}
+#PRAESING{
+    margin-bottom: 120px;
+}
+.cardpris {
+    background-color: #F3F3F3;
+    box-shadow: 8px 8px 0px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pricing-title {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 10px;
+}
+
+.pricing-info {
+    color: #757575;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.pricing-thumb {
+    padding: 30px;
+    border-right: 1px solid #e4e4e4;
+}
+
+.pricing-thumb-last {
+    padding: 30px;
+}
+.pricing-bottom{
+    padding-top: 10px;
+
+}
+.pricing-dollar{
+    font-weight: 600;
+}
+.pricing-btn {
+    display: inline-block;
+}
+.section-btn {
+    background: #424242;
+    border: 0;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 100%;
+    font-weight: normal;
+    padding: 3% 5%;
+    margin-left: 25%;
+}
+.section-btn:hover {
+    background-color: #2997ca;
+    text-decoration: none;
+
+}
+.section-title{
+margin: 50px 0;
+}
+
+/*contacts section*/
+#CONTACTS{
+    text-align: center;
+    background-color:#f8f8f8 ;
+}
+#contact-form .form-control {
+    background: transparent;
+    border: 0;
+    border-bottom: 3px solid #f0f0f0;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 10px 0;
+}
+#contact-form input {
+    height: 50px;
+}
+
+#contact-form input {
+    height: 50px;
+}
+#contact-form .form-control:focus{
+    border-color: rgb(63, 63, 63);
+}
+
+
+#contact-form input[type='submit'] {
+    background-color:#424242 ;
+    border-radius: 50px;
+    border: 0;
+    color: #ffffff;
+}
+
+#contact-form input[type='submit']:hover{
+    background-color: #2997ca;
+}
+
+#CONTACTS .contaner{
+    padding-bottom: 0;
+}
+
+/*fooooter */
+
+#footer {
+    text-align: center;
+    padding: 100px 100px 20px 100px;
+    background-color:#f8f8f8 ;
+}
+#footer i {
+    padding: 0 25px 15px 0;
+}
+#footer i:first-child {
+margin-left: 20px;}
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:none; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(46, 46, 46); 
+
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(90, 90, 90); 
+  }
